@@ -1,0 +1,30 @@
+.detailsProjectDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+.title {
+    text-align: center;
+}
+.details {
+    width: 40%;
+}
+p {
+    font-size: 18px;
+}
+.ButtonLinkes>button{
+    width: 8rem;
+    height: 2.8rem;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.ButtonLinkes :hover {
+    background-color: palevioletred;
+    color: white;
+}

@@ -1,0 +1,80 @@
+#Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.contactTitle {
+    text-align: center;
+    color: palevioletred;
+}
+.detailsUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonSubmit {
+    width: 7.7rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: palevioletred;
+    cursor: pointer;
+}
+.inpuFullname,.inputEmail {
+    width: 25rem;
+    height: 2.8rem;
+    margin: 10px;
+    border-radius: 10px;
+    background: #fafafa;
+    border: 1px solid lightgray;
+}
+.inputMessage {
+    width: 25rem;
+    height: 8.3rem;
+    resize: none;
+    margin: 10px;
+    border-radius: 10px;
+    background: #fafafa;
+    border: 1px solid lightgray;
+}
+.detailsUser>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.buttonSubmit :hover {
+    border: 3px solid lightgray;
+}
+.whatsAppAndMail {
+    cursor: pointer;
+}
+.whatsAppAndMail>a {
+    color: black;
+    margin: 8px;
+}
+@media screen and (max-width: 768px) {
+    .inpuFullname,.inputEmail {
+        width: 12rem;
+        height: 2rem;
+        margin: 5px;
+    }
+    .inputMessage {
+        width: 12rem;
+        height: 5rem;
+        margin: 5px;
+    }
+    .buttonSubmit {
+        width: 6.2rem;
+        height: 2.2rem;
+        font-size: 0.7rem;
+    }
+}

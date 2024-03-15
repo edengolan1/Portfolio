@@ -1,0 +1,40 @@
+#Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.1rem;
+    padding-bottom: 70px;
+    color: #484b50;
+}
+.titleSkills {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.skill{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+}
+.skill>div{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border-bottom: 2px solid palevioletred;
+}
+.skill>div>button {
+    border-radius: 5px;
+    border: none;
+    width: 5.3rem;
+    height: 2.4rem;
+    position: relative;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    .skill {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+}

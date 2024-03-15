@@ -1,0 +1,29 @@
+#Header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 4.5rem;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    color: white;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+.linkes >a , .linkHome{
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px pink, 0 0 25px pink, 0 0 5px pink;
+    font-weight: bold;
+}
+.myName {
+    margin: 15px;
+    text-shadow: 1px 1px 2px pink, 0 0 25px pink, 0 0 5px pink;
+    font-weight: bold;
+}
+#Header :hover {
+    color: black;
+}
