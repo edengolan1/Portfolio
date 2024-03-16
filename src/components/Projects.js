@@ -32,7 +32,7 @@ function Projects() {
                     <div className='detailsSkills'>
                         {project.Skills && (
                         project.Skills.map((skill,skillIndex) => (
-                            <div key={`${index}_${skill}`}>{skill}</div>
+                            <div key={`${index}_${skillIndex}`}>{skill}</div>
                         ))
                         )}
                     </div>

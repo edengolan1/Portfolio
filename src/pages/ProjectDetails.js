@@ -2,18 +2,19 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { projects } from '../components/Data';
 import '../styles/ProjectDetails.css';
-import detailsAnimalAddCommentImage from 'images/detailsAnimalAddComment.png';
-import Animals from 'images/Animals.png';
-import addAnimal from 'images/addAnimal.png';
-import editAnimal from 'images/editAnimal.png';
-import cinema from 'images/cinema.png';
-import viewStore from 'images/viewStore.png';
-import homeStore from 'images/homeStore.png';
-import detailsItem from 'images/detailsItem.png';
-import listStore from 'images/listStore.png';
-import detailsMovie from 'images/detailsMovie.png';
-import editMovie from 'images/editMovie.png';
-import deleteMovie from 'images/deleteMovie.png';
+import detailsAnimalAddCommentImage from '../../public/images/detailsAnimalAddComment.png';
+import Animals from '../../public/images/Animals.png';
+import loggingAnimals from '../../public/images/loggingAnimals.png';
+import addAnimal from '../../public/images/addAnimal.png';
+import editAnimal from '../../public/images/editAnimal.png';
+import cinema from '../../public/images/cinema.png';
+import viewStore from '../../public/images/viewStore.png';
+import homeStore from '../../public/images/homeStore.png';
+import detailsItem from '../../public/images/detailsItem.png';
+import listStore from '../../public/images/listStore.png';
+import detailsMovie from '../../public/images/detailsMovie.png';
+import editMovie from '../../public/images/editMovie.png';
+import deleteMovie from '../../public/images/deleteMovie.png';
 
 function ProjectDetails() {
 
@@ -67,6 +68,10 @@ function ProjectDetails() {
                     <div>
                        <div>
                             <img src={Animals} alt={project.Name}/>
+                        </div>
+                        <div>
+                            <p>You can connect to admin user and do actions:</p>
+                            <img src={loggingAnimals} alt={project.Name}/>
                         </div>
                         <div>
                             <p>You can view details the animals:</p>
