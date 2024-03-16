@@ -2,7 +2,6 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { projects } from '../components/Data';
 import '../styles/ProjectDetails.css';
-import loggingAnimals from 'images/loggingAnimals.png';
 import detailsAnimalAddCommentImage from 'images/detailsAnimalAddComment.png';
 import Animals from 'images/Animals.png';
 import addAnimal from 'images/addAnimal.png';
@@ -68,10 +67,6 @@ function ProjectDetails() {
                     <div>
                        <div>
                             <img src={Animals} alt={project.Name}/>
-                        </div>
-                        <div>
-                            <p>You can connect to admin user and do actions:</p>
-                            <img src={loggingAnimals} alt={project.Name}/>
                         </div>
                         <div>
                             <p>You can view details the animals:</p>
