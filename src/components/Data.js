@@ -4,7 +4,7 @@ const projects = [
 {
 Id: 1,
 Name: "Cinema Website",
-ImgURL: ["./images/cinema.png"],
+ImgURL: ["./images/cinema.png","images/detailsMovie.png"],
 Skills:['C#','Angular','Git'],
 Summary: "On the website, users can browse all movies currently showing in cinemas, view their details, and search for specific movies. In the admin section, administrators can add, remove, and edit movies.",
 LinkWeb: "",
