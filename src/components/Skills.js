@@ -12,7 +12,7 @@ function Skills() {
             </div>
             <div className='skill'>
                 {skills.map((skill,index) => (
-                    <div><button key={index}>{skill}</button></div>
+                    <div key={index}><button>{skill}</button></div>
                 ))}
             </div>
         </div>
