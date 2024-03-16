@@ -2,19 +2,19 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { projects } from '../components/Data';
 import '../styles/ProjectDetails.css';
-import detailsAnimalAddCommentImage from 'images/detailsAnimalAddComment.png';
-import Animals from 'images/Animals.png';
-import loggingAnimals from 'images/loggingAnimals.png';
-import addAnimal from 'images/addAnimal.png';
-import editAnimal from 'images/editAnimal.png';
-import cinema from 'images/cinema.png';
-import viewStore from 'images/viewStore.png';
-import homeStore from 'images/homeStore.png';
-import detailsItem from 'images/detailsItem.png';
-import listStore from 'images/listStore.png';
-import detailsMovie from 'images/detailsMovie.png';
-import editMovie from 'images/editMovie.png';
-import deleteMovie from 'images/deleteMovie.png';
+import detailsAnimalAddCommentImage from '../assets/images/detailsAnimalAddComment.png';
+import Animals from '../assets/images/Animals.png'
+import loggingAnimals from '../assets/images/loggingAnimals.png';
+import addAnimal from '../assets/images/addAnimal.png';
+import editAnimal from '../assets/images/editAnimal.png';
+import cinema from '../assets/images/cinema.png';
+import viewStore from '../assets/images/viewStore.png';
+import homeStore from '../assets/images/homeStore.png';
+import detailsItem from '../assets/images/detailsItem.png';
+import listStore from '../assets/images/listStore.png';
+import detailsMovie from '../assets/images/detailsMovie.png';
+import editMovie from '../assets/images/editMovie.png';
+import deleteMovie from '../assets/images/deleteMovie.png';
 
 function ProjectDetails() {
 
