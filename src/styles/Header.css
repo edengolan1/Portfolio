@@ -30,13 +30,13 @@
 @media screen and (max-width: 768px) {
     #Header {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         font-size: 1.02rem;
     }
     .linkes >a , .linkHome, .myName {
-        margin: 5px;
+        margin: 4px;
     }
-    .myName {
-        margin-right: 8px;
+    .myName>p{
+        font-size: 0.9rem;
     }
 }
