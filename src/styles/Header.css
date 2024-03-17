@@ -27,3 +27,15 @@
 #Header :hover {
     color: black;
 }
+@media screen and (max-width: 768px) {
+    #Header {
+        display: flex;
+        justify-content: center;
+    }
+    .linkes >a , .linkHome, .myName {
+        margin: 4px;
+    }
+    .myName {
+        margin-right: 8px;
+    }
+}

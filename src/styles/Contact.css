@@ -26,6 +26,7 @@
     font-size: 0.9rem;
     color: palevioletred;
     cursor: pointer;
+    background-color: #fafafa;
 }
 .inpuFullname,.inputEmail {
     width: 25rem;

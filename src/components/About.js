@@ -31,7 +31,7 @@ function About() {
                 <span>Hey, I'm Eden Golan!</span>
             </div>
             <div>
-                <span>I'm with Pession Motivation and Self-learning skills.</span>
+                <span>I'm with a lot of Motivation and Self-learning skills.</span>
             </div>
             <div className='buttons'>
                 <div>
