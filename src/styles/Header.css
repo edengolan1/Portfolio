@@ -31,9 +31,10 @@
     #Header {
         display: flex;
         justify-content: center;
+        font-size: 1.2rem;
     }
     .linkes >a , .linkHome, .myName {
-        margin: 4px;
+        margin: 5px;
     }
     .myName {
         margin-right: 8px;
