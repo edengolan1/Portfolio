@@ -30,6 +30,7 @@ svg {
     margin: 13px;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    animation: bounce2 1.6s;
 }
 .buttons>div>button {
     border-radius: 10px;
@@ -51,4 +52,13 @@ svg {
 }
 span {
     font-size: 1.3rem;
+}
+@keyframes bounce2 {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
 }
